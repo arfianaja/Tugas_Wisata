@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+}
+
+.dashboard {
+    flex: 1;
+    background-color: white;
+}
+
+.dashboard h1 {
+    text-align: center;
+    background-color: #f4f5f6;
+    padding: 20px;
+    color: green;
+    border-top-right-radius: 5px;
+}
+
+.dashboard span{
+    color: black;
+}
+
+.dashboard .wrapper {
+    width: 100%;
+    height: calc(40px - 100%);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5,auto);
+}
+
+.dashboard .wrapper p {
+    margin: 40px auto;
+    color: green;
+    font-weight: 500;
+    text-align: left;
+    font-size: 50px;
+    line-height: 23px;
+}
+
+.dashboard .wrapper span {
+    text-align: center;
+    font-size: 21px;
+    color: green;
+}
+
+.dashboard .wrapper button:last-child {
+    transform: translateY(150px);
+}
+
+.dashboard .wrapper button {
+    justify-self: self-start;
+    padding: 25px;
+    margin-bottom: 10px;
+    background-color: transparent;
+    border: none;
+    transition: .5s ease;
+}
+.dashboard .wrapper button:hover {
+    color: green;
+    background-color: gainsboro;
+}
+
+.far, .fas, .bi {
+    margin-right: 10px;
+}
+
+.container {
+    flex: 3;
+    background-color: #f4f5f6;
+    position: relative;
+    overflow: hidden;
+}
+
+.my-table {
+    border-collapse: collapse;
+    font-size: 14px;
+    min-width: 537px;
+    margin: 100px auto;
+    width: 90%;
+    height: 70%;
+    text-align: center;
+}
+
+.my-table th, 
+.my-table td {
+    border: 1px solid #e1edff;
+    padding: 2px 10px;
+}
+.my-table caption {
+    margin: 7px;
+}
+
+.my-table tbody td {
+    color: #353535;
+    border-right: 1px solid #aef0ae;
+}
+.my-table tbody tr:nth-child(odd) td {
+    background-color: #b7ffb6;
+}
+.my-table tbody tr:nth-child(even) td {
+    background-color: #ebf7ef;
+}
+.my-table tbody td:nth-child(4),
+.my-table tbody td:first-child,
+.my-table tbody td:last-child {
+    text-align: center;
+}
+
+.my-table tbody tr:hover td {
+    background-color: #a2ffaa;
+    border-color: #0fff8f;
+}
+
+/* Table Footer */
+.my-table tfoot th {
+    border-right: 1px solid #c7ecc7;
+    text-align: right;
+}
+
+.container table a {
+    color: white;
+    text-decoration: none;
+    background-color: green;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+
+table.hide {
+    display: none;
+}
+
+/* .container .lingk {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background-color: green;
+    position: absolute;
+    right: -50px;
+    top: -10px;
+} */
+

@@ -1,0 +1,112 @@
+#level-6 {
+    background-color: green;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+#level-6 h1{
+    padding: 20px 20px;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#level-6 .dalam-1 {
+    position: absolute;
+    top: 20%;
+    bottom: 10%;
+    left: 10%;
+    right: 55%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#level-6 .dalam-1 h2 {
+    color: green;
+    padding: 30px 30px;
+    font-size: 30px;
+}
+
+#level-6 .dalam-1 span {
+    color: black;
+}
+
+#level-6 .dalam-1 p {
+    text-align: justify;
+    line-height: 25px;
+    font-weight: 500;
+    padding: 30px 30px;
+    text-indent: 60px;
+}
+
+#level-6 .dalam-2 {
+    position: absolute;
+    top: 20%;
+    bottom: 10%;
+    left: 55%;
+    right: 10%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#level-6 .dalam-2 .about {
+    transform: translateY(-50px);
+    text-align: justify;
+}
+
+#level-6 .dalam-2 h1 {
+    color: black;
+    text-align: left;
+}
+
+#level-6 .dalam-2 span{
+    color: green;
+}
+
+#level-6 .dalam2-2 {
+    width: 150px;
+    height: 100px;
+    background-image: url(../image/uin.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+#level-6 .dalam2-2 h3 {
+    color: black;
+}
+
+#level-6 .dalam-2 div.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-left: 20px;
+    /* background-color: red; */
+}
+
+#level-6 .dalam-2 div.bio {
+    margin: 10px 0 0 10px;
+    /* background-color: yellow; */
+}
+
+#level-6 .dalam-2 div.bio p {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+#level-6 .dalam-2 .tebal {
+    font-weight: 700;
+    line-height: 40px;
+}
+
+#level-6 .dalam-2 .des {
+    padding: 20px 20px;
+    width: 60%;
+}
+
+#level-6 .dalam-2 p {
+    font-size: 13px;
+    line-height: 20px;
+}

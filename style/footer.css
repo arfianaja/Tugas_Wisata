@@ -1,0 +1,57 @@
+/* Footer */
+footer {
+  background-color: #343a40;
+  color: #fff;
+  padding: 80px 0;
+}
+
+footer h3 {
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+}
+
+footer p {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+footer form {
+  background-color: #454d55;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+footer input,
+footer textarea {
+  background-color: #474f58;
+  border: 1px solid transparent;
+  color: #fff;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+
+footer input:focus,
+footer textarea:focus {
+  background-color: #5a626d;
+  border: 1px solid transparent;
+  box-shadow: none;
+}
+
+footer .btn {
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+footer .btn-primary {
+  background-color: #6c757d;
+  border: 1px solid transparent;
+}
+
+footer .btn-primary:hover {
+  background-color: #868e96;
+}

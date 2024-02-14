@@ -1,0 +1,86 @@
+body {
+  background-color: #04bc00;
+  color: white;
+  position: relative;
+}
+
+.container {
+  /* background-color: yellow; */
+  padding-top: 30px;
+  position: relative;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+div.publik {
+  position: absolute;
+  top: 20%;
+  bottom: 20%;
+  right: 5%;
+  left: 5%;
+  background-color: white;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.container .publik .hero {
+  background-color: #04bc00;
+  font-size: 30px;
+}
+
+.dalam {
+  color: black;
+  padding: 20px 20px;
+}
+
+.container .dalam a {
+  color: rgb(24, 24, 24);
+  background-color: green;
+  padding: 20px;
+  transform: translateY(200px);
+}
+
+.container .dalam form input,
+.container .dalam form label {
+  display: block;
+  height: 30px;
+  width: 100%;
+}
+
+.container .dalam form input,
+.container .dalam form textarea {
+  border: none;
+  background-color: gainsboro;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.container .dalam form {
+  font-size: 15px;
+  margin: 30px 30px;
+}
+
+.container .dalam form input {
+  padding: 20px 20px;
+  box-sizing: border-box;
+}
+.container .dalam form label {
+  margin-top: 10px;
+}
+.container .dalam form button {
+  background-color: green;
+  position: absolute;
+  padding: 7px 25px;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  right: 50px;
+  bottom: 30px;
+}

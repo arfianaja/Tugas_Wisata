@@ -1,0 +1,54 @@
+#level-2{
+    height: 100vh;
+    width: 100%;
+    background-color:white;
+    position: relative;
+}
+
+#level-2 .dalam {
+    position:absolute;
+    top: 20%;
+    bottom: 20%;
+    left: 8%;
+    right: 8%;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+}
+
+#level-2 .dalam .dalamdua {
+    width: 220px;
+    height: 125px;
+    position:absolute;
+    top: -50px;
+    left: 50px;
+    box-shadow: 0px 2px 5px 0px;
+    background-image: url(../image/mesjid1.jpg);
+    background-size:contain; 
+    background-repeat: no-repeat;
+}
+
+#level-2 .dalam p{
+    width: 500px;
+    height: 100px;
+    text-align:justify;
+    margin: 150px 50px;
+    line-height: 20px;
+    text-indent: 30px;
+}
+
+#level-2 h1{
+    text-align: center;
+    margin-top: 50px;
+    color: green;
+}
+
+#level-2 .dalam a{
+    background-color: green;
+    color: white;
+    padding: 12px 20px;
+    font-size: 13px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 30px;
+    right: 40px;
+    border: 3px;    
+}
